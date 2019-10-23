@@ -1,0 +1,14 @@
+<header>
+  <a href="/"><img class="image-logo" src="/assets/images/bc-logo.png" alt="Brightcove Logo"></a><p class="secondary-nav"><a href="https://support.brightcove.com/contact-support">Contact Support</a> | <a href="https://status.brightcove.com/">System Status</a></p>
+  <img class="image-header" src="/assets/images/header.svg" alt="header">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      {% if page.parent %}
+      <li class="breadcrumb-item"><a href="/">Home</a></li>
+      {% endif %}
+      {% if page.parent and page.parent != "Home" %}
+      <li class="breadcrumb-item"><a href="/{{ page.dir }}">{{ page.parent }}</a></li>
+      {% endif %}
+      <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+    </ol>
+  </nav></header>
