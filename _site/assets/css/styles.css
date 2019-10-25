@@ -2,17 +2,15 @@
   background-color: #239eb4;
   margin-left: 0;
   margin-right: 0;
-  padding: .4rem;
-  position: relative;
-  top: 1rem;
+  /* padding: .4rem; */
 }
 
-.div-header img {
-  height: 30px;
+.product-logo {
+  margin-left: 1rem;
 }
 
 .secondary-nav {
-  text-align: right;
+  float: right;
   margin-right: 1em;
   font-size: smaller;
 }
@@ -27,14 +25,14 @@
 }
 
 .image-logo {
-  float: left;
+  border: none;
   margin-left: 1em;
 }
 
 .sidenav {
   position: fixed;
   left: 1em;
-  top: 17em;
+  top: 21em;
   overflow-y: scroll;
   font-size: smaller;
   margin-left: 1em;
