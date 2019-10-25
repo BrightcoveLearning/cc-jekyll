@@ -2,6 +2,9 @@
 {% include header.html %}
 {% include navigation.html %}
 {{ content }}
+<div style="text-align: center;">
+  Page last updated on {{ file.modified_time }}
+</div>
 {% include updated.html %}
 {% include footer.html %}
 {% include foot.html %}
