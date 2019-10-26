@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Product Updates</title>
+  <title>Corporate Communications Home</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="/assets/css/site/styles.css">
   <link rel="stylesheet" href="/assets/css/site/prism.css">
@@ -20,10 +20,8 @@
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
       
-      <li class="breadcrumb-item"><a href="/">Home</a></li>
       
-      
-      <li class="breadcrumb-item active" aria-current="page">Product Updates</li>
+      <li class="breadcrumb-item active" aria-current="page">Corporate Communications Home</li>
     </ol>
   </nav>
 </header>
@@ -50,20 +48,59 @@
   
 </nav>
 <article class="bcls-article">
-
-  <h1>Beacon Product Updates</h1>
-  <summary>This topic outlines the updates that have been made to the Corp Comm application.</summary>
-  <section class="bcls-section">
-    <h2>Initial Release</h2>
-    <h4>1 Dec 2019</h4>
-    <p>The initial release of the Corporate Comm application.</p>
-    <p><a href="/node/18509#rates">Learn more</a></p>
-    <hr />
-  </section>
+  <h1>Corporate Communications Home</h1>
+  <h2>code tests</h2>
+  <pre class="line-numbers"><code class="language-js">var BCLS = ( function (window, document) {
+      var foo = 'bar';
+  
+      /**
+        * tests for all the ways a variable might be undefined or not have a value
+        * @param {*} x the variable to test
+        * @return {Boolean} true if variable is defined and has a value
+        */
+        function isDefined(x) {
+            if ( x === '' || x === null || x === undefined) {
+                return false;
+            }
+            return true;
+        }
+    })(window, document); </code></pre>
+    <pre class="line-numbers"><code class="language-css">.microlight {
+      font-family : monospace;
+      white-space : pre;
+      background-color : #C4E4E8;
+      color            : #052C36;    
+  }
+  </code></pre>
+  <pre class="line-numbers"><code class="language-html">
+    &lt;article class="bcls-article"&gt;
+      &lt;h1&gt;Corporate Communications Home&lt;/h1&gt;
+      &lt;h2&gt;code tests&lt;/h2&gt;
+      &lt;code class="microlight"&gt;var BCLS = ( function (window, document) {
+        var foo = 'bar';
+    
+        /**
+          * tests for all the ways a variable might be undefined or not have a value
+          * @param {*} x the variable to test
+          * @return {Boolean} true if variable is defined and has a value
+          */
+          function isDefined(x) {
+              if ( x === '' || x === null || x === undefined) {
+                  return false;
+              }
+              return true;
+          }
+      })(window, document);&lt;/code&gt;
+      &lt;code class="microlight"&gt;.microlight {
+        font-family : monospace;
+        white-space : pre;
+        background-color : #C4E4E8;
+        color            : #052C36;    
+    }&lt;/code&gt;
+      &lt;code class="microlight"&gt;&lt;/code&gt;
+    &lt;/article&gt;</code></pre>
 </article>
-</body>
-</html>
-<!-- End of content -->
+
 <hr>
 <div style="text-align: center;">
   Page last updated on 2019-10-26 13:25:25 -0400
