@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/assets/css/sitmap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/assets/css/sitemap.xsl"?>
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     
     <url>
         <loc>/</loc>
-        <lastmod>2019-10-26</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>/assets/css/main.css</loc>
         <lastmod>2019-10-26</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
@@ -33,7 +26,7 @@
     </url>
     
     <url>
-        <loc>/assets/css/sitmap.xsl</loc>
+        <loc>/assets/css/sitemap.xsl</loc>
         <lastmod>2019-10-26</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
@@ -48,13 +41,6 @@
     
     <url>
         <loc>/feed.xml</loc>
-        <lastmod>2019-10-26</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>/assets/css/main.css.map</loc>
         <lastmod>2019-10-26</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
