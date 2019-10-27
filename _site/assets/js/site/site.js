@@ -14,4 +14,11 @@ var BCLS_site = ( function (window, document) {
         }
       }
     }
+
+    iMax = sidenav_headers.length;
+    for (i = 0; i < iMax; i++) {
+      sidenav_headers[i].addEventListener('click', function() {
+        show_submenu(this.textContent);
+      });
+    }
 })(window, document);

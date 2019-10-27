@@ -4,7 +4,6 @@
 /* site styles */
 body {
   font-family: "Open Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
-  margin-left: 1rem;
 }
 
 
@@ -150,12 +149,12 @@ h2#expanderHead.changed:before {
 
 
 
-.side-nav li>a {
+/* .side-nav li>a {
   font-family: "Open Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
   padding: 3px;
   max-width: 150px;
   overflow: hidden;
-}
+} */
 
 
 
@@ -203,11 +202,11 @@ figcaption {
 
 
 @media only screen and (min-width: 64.063em) {
-  .sidebar {
+  /* .sidebar {
       position: fixed;
       top: 0;
       bottom: 0;
-  }
+  } */
   table.profile-data th,
   table.profile-data td {
       font-size: .9em !important;
@@ -217,11 +216,6 @@ figcaption {
   .notes>p {
       padding-top: 100px;
       margin-top: -90px;
-  }
-  h1.text-center {
-      padding-top: 180px;
-      margin-top: -80px;
-      font-size: 4rem;
   }
   .section table {
       margin-top: 40px
@@ -364,55 +358,9 @@ figcaption {
       width: 100%;
       min-width: 20rem;
   }
-  h1 {
-      color: #999;
-      font-size: 3rem;
-      z-index: 5;
-  }
-  h2 {
-      font-size: 2.5rem
-  }
-  h2.index-page, h1.vjs-dock-title {
-      margin-top: 0;
-      padding-top: 1rem;
-      font-size: 1.8rem;
-  }
-  h3 {
-      font-size: 2.0rem
-  }
-  h3.index-page,h2.vjs-dock-description {
-      margin-top: 0;
-      padding-top: 1rem;
-      font-size: 1.4rem;
-      font-weight: normal;
-  }
-  h4 {
-      font-size: 1.5rem;
-      font-weight: normal;
-  }
-  h4.index-page, h4.indexHeader {
-      margin-top: 0;
-      margin-left: 1rem;
-      padding-top: 1rem;
-      font-size: 1rem;
-      font-weight: bold;
-  }
-  h5 {
-      font-size: 1.2rem;
-      font-weight: bold;
-  }
-  h5.index-page {
-      margin-top: 0;
-      padding-top: 1rem;
-      font-size: .9rem;
-      font-weight: normal;
-  }
-  h6 {
-      font-size: 1rem;
-      font-weight: bold;
-  }
   fieldset {
-      border-radius: 5px
+      border-radius: 5px;
+      border: 1px rgb(39, 138, 152) solid;
   }
   select[multiple] {
       min-height: 200px
@@ -439,15 +387,6 @@ figcaption {
   }
   a:hover {
       text-decoration: underline
-  }
-  /**
-   * to hide content that's only for training slides
-   */
-  .slide-only {
-      display: none
-  }
-  .AnyTime-dom-table {
-      max-width: 100% !important
   }
   /* FAQ Styles */
   .bcls-question {
@@ -655,14 +594,19 @@ figcaption {
 
 /* Jekyll layout styles */
 .div-header {
-  background-color: #239eb4;
+  background-color: rgb(39, 138, 152);
   margin-left: 0;
   margin-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
   /* padding: .4rem; */
 }
 
 .product-logo {
+  border: none;
   margin-left: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .secondary-nav {
@@ -714,7 +658,7 @@ body {
 }
 
 h1 {
-  margin-bottom: 1em;
+  color: rgb(39, 138, 152);
 }
 
 header {
