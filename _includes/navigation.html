@@ -1,12 +1,18 @@
-<nav class="sidenav">
-    {% for item in site.data.navigation %}
-    <h5><a href="{{ item.link }}">{{ item.name }}</a></h5>
-    {% if item.subfolderitems %}
-      <ul class="sidenav-submenu">
-        {% for entry in item.subfolderitems %}
-          <li><a href="{{ entry.link }}">{{ entry.name }}</a></li>
-        {% endfor %}
-      </ul>
-    {% endif %}
-  {% endfor %}
-</nav>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-3">
+      <nav class="sidenav">
+        {% for item in site.data.navigation %}
+        <h5><a href="{{ item.link }}">{{ item.name }}</a></h5>
+        {% if item.subfolderitems %}
+          <ul class="sidenav-submenu">
+            {% for entry in item.subfolderitems %}
+              <li><a href="{{ entry.link }}">{{ entry.name }}</a></li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      {% endfor %}
+    </nav>
+  </div>
+  <div class="col-sm-9">
+<!-- bootstrap layout -->
