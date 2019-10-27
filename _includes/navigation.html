@@ -3,13 +3,15 @@
     <div class="col-lg-3">
       <nav class="sidenav">
         {% for item in site.data.navigation %}
-        <h5><a href="{{ item.link }}">{{ item.name }}</a></h5>
-        {% if item.subfolderitems %}
-          <ul class="sidenav-submenu">
-            {% for entry in item.subfolderitems %}
-              <li><a href="{{ entry.link }}">{{ entry.name }}</a></li>
-            {% endfor %}
-          </ul>
+          {% if item.subfolderitems == nil %}
+          <h5><a href="{{ item.link }}">{{ item.name }}</a></h5>
+        {% else %}
+          <h5 class="submenu-header">{{ item.name }}</h5>
+            <ul class="sidenav-submenu">
+              {% for entry in item.subfolderitems %}
+                <li><a href="{{ entry.link }}">{{ entry.name }}</a></li>
+              {% endfor %}
+            </ul>
         {% endif %}
       {% endfor %}
     </nav>

@@ -3,7 +3,14 @@
 - name: Release Notes
   link: /release-notes/product-updates.html
 - name: Get Started
-  link: /get-started/
+  subfolderitems:
+    - name: Get Started Home
+      link: /get-started/
+    - name: Get Started with Trial
+      link: /get-started/getting-started-corp-comm-trial.html
+    - name: Get Started with App
+      link: /get-started/getting-started-corp-comm-app.html
+- name: Test
   subfolderitems:
     - name: Get Started Home
       link: /get-started/

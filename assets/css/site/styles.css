@@ -641,6 +641,21 @@ figcaption {
   font-size: 1.3em;
 }
 
+.sidenav h5.submenu-header {
+color: rgb(14, 129, 255)}
+
+.sidenav h5.submenu-header::after {
+  content: ' >';
+  color: rgb(14, 129, 255);
+}
+
+.sidenav ul {
+  list-style: none;
+}
+.sidenav ul li {
+  margin-left: -1.5em;
+}
+
 .gf-links-cols {
   color: #f5f5f5;
   text-align: right;

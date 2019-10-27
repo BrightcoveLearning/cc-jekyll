@@ -5,20 +5,35 @@ var BCLS_site = ( function (window, document) {
     iMax;
 
     function show_submenu(header) {
+      console.log(header);
+      
       // first hide all
       iMax = sidenav_submenus.length;
       for (i = 0; i < iMax; i++) {
-        sidenav_submenus[i].setAttribute('style', 'display:none;');
         if (sidenav_submenus[i].previousElementSibling.firstChild.textContent === header) {
+          console.log('i', i);
           sidenav_submenus[i].removeAttribute('style');
+        } else {
+          sidenav_submenus[i].setAttribute('style', 'display:none;');
         }
       }
     }
 
-    iMax = sidenav_headers.length;
-    for (i = 0; i < iMax; i++) {
-      sidenav_headers[i].addEventListener('click', function() {
-        show_submenu(this.textContent);
-      });
+    
+    function init() {
+      iMax = sidenav_headers.length;
+      for (i = 0; i < iMax; i++) {
+        sidenav_headers[i].addEventListener('click', function(e) {
+          console.log(e);
+          show_submenu(this.textContent);
+        });
+      }
+      
+      iMax = sidenav_submenus.length;
+      for (i = 0; i < iMax; i++) {
+        sidenav_submenus[i].setAttribute('style', 'display:none;');
+      }
     }
+
+    init();
 })(window, document);
