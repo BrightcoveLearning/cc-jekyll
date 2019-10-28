@@ -34,6 +34,9 @@ defaults:
   - 
     scope:
       path: ""
+      type: "pages"
+    values:
+      layout: "page"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
