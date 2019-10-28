@@ -360,7 +360,7 @@ figcaption {
   }
   fieldset {
       border-radius: 5px;
-      border: 1px rgb(39, 138, 152) solid;
+      border: 1px  solid;
   }
   select[multiple] {
       min-height: 200px
@@ -594,7 +594,7 @@ figcaption {
 
 /* Jekyll layout styles */
 .div-header {
-  background-color: rgb(39, 138, 152);
+  background-color: ;
   margin-left: 0;
   margin-right: 0;
   padding-top: 0;
@@ -673,7 +673,7 @@ body {
 }
 
 h1 {
-  color: rgb(39, 138, 152);
+  color: ;
 }
 
 header {
