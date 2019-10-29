@@ -379,7 +379,7 @@ URL
 
 <hr>
 <div style="text-align: center;font-size: smaller;">
-  Page last updated on 2019-10-29 07:43:15 -0400
+  Page last updated on 2019-10-29 07:43:54 -0400
 </div>
 
 <footer class="bcls-footer" role="contentinfo">
@@ -439,7 +439,7 @@ URL
       </nav>
     </div>
   </div>
-  <div class="row" style="padding-left: 20%;">
+  <div class="row" style="padding-left: 30%;">
     <div class="region region-footer-bottom-center col-md-12">
       <div class="bcls-copyright">
 
