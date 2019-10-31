@@ -205,18 +205,12 @@ h2#expanderHead.changed:before {
   display: block
 }
 
-
-
-
 /* .side-nav li>a {
   font-family: "Open Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
   padding: 3px;
   max-width: 150px;
   overflow: hidden;
 } */
-
-
-
 
 th.head,
 tr.head>th {
@@ -227,7 +221,7 @@ tr.head>th {
 
 /* footer */
 
-footer .row {
+.footer .row {
   padding-bottom: 1em;
   align-content: space-between;
   width: 100%;
@@ -235,7 +229,6 @@ footer .row {
 
 .footer, .bcls-footer {
   background-color: #626365;
-  height: 20rem;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -247,10 +240,9 @@ footer .row {
 
 .footer a, .bcls-footer a {
   color: #ffffff;
-  font-size: .9rem;
 }
-footer.menu {
-
+.field--item {
+  font-size: smaller;
 }
 ul.menu {
   margin-left: -1em;
@@ -296,32 +288,12 @@ figcaption {
       font-size: .75rem
   }
   /***** specific to docs home page ******/
-  .product-logo {
-      padding: 20px
-  }
   /**** content wrapper ********* */
-  .text-small {
-      font-size: .7rem
-  }
   .section {
       clear: both
   }
   .subsection {
-      margin-left: 30px
-  }
-  /**
-   * specific to apiary API references
-   */
-  #apiContainer {
-      position: relative
-  }
-  #apiOverview {
-      position: absolute;
-      top: 0;
-  }
-  #apiReference {
-      position: absolute;
-      top: 0;
+      margin-left: 10%;
   }
   /**** show/hide & inline ****/
   .height-zero {
@@ -672,11 +644,6 @@ footer nav li {
   margin-left: -2.5em;
 }
 
-.bcls-article {
-  /* max-width: 75em; */
-  /* margin-left: 30%;
-  margin-right: 20% */
-}
 <!-- complete bootstrap layou -->
 </div>
 </div>
@@ -684,7 +651,7 @@ footer nav li {
 
 <hr>
 <div style="text-align: center;font-size: smaller;">
-  Page last updated on 2019-10-29 07:43:54 -0400
+  Page last updated on 2019-10-29 09:21:06 -0400
 </div>
 
 <footer class="bcls-footer" role="contentinfo">
@@ -701,16 +668,8 @@ footer nav li {
           <li>
             <a href="https://help.brightcove.com/en/contact/create">Contact Support</a>
           </li>
-        </ul>
-
-      </nav>
-      <nav role="navigation" aria-labelledby="block-documentation-menu" id="block-documentation">
-
-        <h2>Docs</h2>
-
-        <ul class="menu">
           <li>
-            <a href="/" data-drupal-link-system-path="<front>" class="is-active">Home</a>
+            <a href="https://support.brightcove.com/">Documentation</a>
           </li>
         </ul>
 
@@ -754,9 +713,9 @@ footer nav li {
           <div class="field--item"><a href="https://www.brightcove.com/en/privacy">Privacy</a> | <a href="https://www.brightcove.com/en/terms-and-conditions">Terms &amp; Conditions</a></div>
         </div>
       </div>
-
+      <div style="display: inline-block;width: 5px;"></div>
       <div class="gf-links-cols">
-        <div class="gf-social"><a href="https://www.linkedin.com/company/16439" title="LinkedIn" newtab="newtab" class="gf-social-linkedin"><i class="fab fa-linkedin-in"></i></a><a href="https://twitter.com/brightcove" title="Twitter" newtab="newtab" class="gf-social-twitter"><i class="fab fa-twitter"></i></a><a href="https://www.facebook.com/Brightcove" title="Facebook" newtab="newtab" class="gf-social-facebook"><i class="fab fa-facebook-f"></i></a>
+        <div class="gf-social"><a href="https://www.linkedin.com/company/16439" title="LinkedIn" newtab="newtab" class="gf-social-linkedin"><i class="fab fa-linkedin-in" style="font-size: 1.8rem;"></i></a><a href="https://twitter.com/brightcove" title="Twitter" newtab="newtab" class="gf-social-twitter"><i class="fab fa-twitter" style="font-size: 1.8rem;"></i></a><a href="https://www.facebook.com/Brightcove" title="Facebook" newtab="newtab" class="gf-social-facebook"><i class="fab fa-facebook-f" style="font-size: 1.8rem;"></i></a>
         </div>
       </div>
     </div>

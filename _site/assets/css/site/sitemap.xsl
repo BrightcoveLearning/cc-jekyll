@@ -379,7 +379,7 @@ URL
 
 <hr>
 <div style="text-align: center;font-size: smaller;">
-  Page last updated on 2019-10-29 07:43:54 -0400
+  Page last updated on 2019-10-29 09:21:06 -0400
 </div>
 
 <footer class="bcls-footer" role="contentinfo">
@@ -396,16 +396,8 @@ URL
           <li>
             <a href="https://help.brightcove.com/en/contact/create">Contact Support</a>
           </li>
-        </ul>
-
-      </nav>
-      <nav role="navigation" aria-labelledby="block-documentation-menu" id="block-documentation">
-
-        <h2>Docs</h2>
-
-        <ul class="menu">
           <li>
-            <a href="/" data-drupal-link-system-path="<front>" class="is-active">Home</a>
+            <a href="https://support.brightcove.com/">Documentation</a>
           </li>
         </ul>
 
@@ -449,9 +441,9 @@ URL
           <div class="field--item"><a href="https://www.brightcove.com/en/privacy">Privacy</a> | <a href="https://www.brightcove.com/en/terms-and-conditions">Terms &amp; Conditions</a></div>
         </div>
       </div>
-
+      <div style="display: inline-block;width: 5px;"></div>
       <div class="gf-links-cols">
-        <div class="gf-social"><a href="https://www.linkedin.com/company/16439" title="LinkedIn" newtab="newtab" class="gf-social-linkedin"><i class="fab fa-linkedin-in"></i></a><a href="https://twitter.com/brightcove" title="Twitter" newtab="newtab" class="gf-social-twitter"><i class="fab fa-twitter"></i></a><a href="https://www.facebook.com/Brightcove" title="Facebook" newtab="newtab" class="gf-social-facebook"><i class="fab fa-facebook-f"></i></a>
+        <div class="gf-social"><a href="https://www.linkedin.com/company/16439" title="LinkedIn" newtab="newtab" class="gf-social-linkedin"><i class="fab fa-linkedin-in" style="font-size: 1.8rem;"></i></a><a href="https://twitter.com/brightcove" title="Twitter" newtab="newtab" class="gf-social-twitter"><i class="fab fa-twitter" style="font-size: 1.8rem;"></i></a><a href="https://www.facebook.com/Brightcove" title="Facebook" newtab="newtab" class="gf-social-facebook"><i class="fab fa-facebook-f" style="font-size: 1.8rem;"></i></a>
         </div>
       </div>
     </div>

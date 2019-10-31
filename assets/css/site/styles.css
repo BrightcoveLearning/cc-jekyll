@@ -149,18 +149,12 @@ h2#expanderHead.changed:before {
   display: block
 }
 
-
-
-
 /* .side-nav li>a {
   font-family: "Open Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
   padding: 3px;
   max-width: 150px;
   overflow: hidden;
 } */
-
-
-
 
 th.head,
 tr.head>th {
@@ -171,7 +165,7 @@ tr.head>th {
 
 /* footer */
 
-footer .row {
+.footer .row {
   padding-bottom: 1em;
   align-content: space-between;
   width: 100%;
@@ -179,7 +173,6 @@ footer .row {
 
 .footer, .bcls-footer {
   background-color: #626365;
-  height: 20rem;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -191,10 +184,9 @@ footer .row {
 
 .footer a, .bcls-footer a {
   color: #ffffff;
-  font-size: .9rem;
 }
-footer.menu {
-
+.field--item {
+  font-size: smaller;
 }
 ul.menu {
   margin-left: -1em;
@@ -240,32 +232,12 @@ figcaption {
       font-size: .75rem
   }
   /***** specific to docs home page ******/
-  .product-logo {
-      padding: 20px
-  }
   /**** content wrapper ********* */
-  .text-small {
-      font-size: .7rem
-  }
   .section {
       clear: both
   }
   .subsection {
-      margin-left: 30px
-  }
-  /**
-   * specific to apiary API references
-   */
-  #apiContainer {
-      position: relative
-  }
-  #apiOverview {
-      position: absolute;
-      top: 0;
-  }
-  #apiReference {
-      position: absolute;
-      top: 0;
+      margin-left: 10%;
   }
   /**** show/hide & inline ****/
   .height-zero {
@@ -614,10 +586,4 @@ footer nav, div.bcls-copyright {
 footer nav li {
   display: block;
   margin-left: -2.5em;
-}
-
-.bcls-article {
-  /* max-width: 75em; */
-  /* margin-left: 30%;
-  margin-right: 20% */
 }
